@@ -14,19 +14,17 @@ class App extends Component {
           id: '1', 
           nome: 'Lucas Silva', 
           descricao: 'Mais um dia de muitos bugs :)', 
-          imgPerfil: 'https://sujeitoprogramador.com/instareact/fotoPerfil1.png', 
-          imgPublicacao: 'https://sujeitoprogramador.com/instareact/foto1.png',  
+          imgPerfil: 'https://sujeitoprogramador.com/instareact/fotoPerfil1.png', //'src/img/Perfis/fotoPerfil1.jpg', 
+          imgPublicacao: 'https://sujeitoprogramador.com/instareact/foto1.png', //'src/img/Publicacoes/foto1.jpg',  
           liked: true, 
-          likers: 1
-
-          
-         },
+          likers: 7         
+        },
         {
           id: '2', 
           nome: 'Matheus', 
           descricao: 'Isso sim é ser raiz!!!!!', 
-          imgPerfil: 'https://sujeitoprogramador.com/instareact/fotoPerfil2.png', 
-          imgPublicacao: 'https://sujeitoprogramador.com/instareact/foto2.png', 
+          imgPerfil: 'https://sujeitoprogramador.com/instareact/fotoPerfil2.png', //'src/img/Perfis/fotoPerfil2.jpg', 
+          imgPublicacao: 'https://sujeitoprogramador.com/instareact/foto2.png', //'src/img/Publicacoes/foto2.jpg',  
           liked: false, 
           likers: 0
         },
@@ -34,28 +32,10 @@ class App extends Component {
           id: '3', 
           nome: 'Jose Augusto', 
           descricao: 'Bora trabalhar Haha', 
-          imgPerfil: 'https://sujeitoprogramador.com/instareact/fotoPerfil3.png', 
-          imgPublicacao: 'https://sujeitoprogramador.com/instareact/foto3.png',  
+          imgPerfil: 'https://sujeitoprogramador.com/instareact/fotoPerfil3.png', //'src/img/Perfis/fotoPerfil3.jpg', 
+          imgPublicacao: 'https://sujeitoprogramador.com/instareact/foto3.png', //'src/img/Publicacoes/foto3.jpg',  
           liked: false, 
           likers: 3
-        },
-        {
-          id: '4', 
-          nome: 'Gustavo Henrique', 
-          descricao: 'Isso sim que é TI!', 
-          imgPerfil: 'https://sujeitoprogramador.com/instareact/fotoPerfil1.png', 
-          imgPublicacao: 'https://sujeitoprogramador.com/instareact/foto4.png', 
-          liked: false, 
-          likers: 1
-        },
-        {
-          id: '5', 
-          nome: 'Guilherme', 
-          descricao: 'Boa tarde galera do insta...', 
-          imgPerfil: 'https://sujeitoprogramador.com/instareact/fotoPerfil2.png', 
-          imgPublicacao: 'https://sujeitoprogramador.com/instareact/foto5.png',
-          liked: false, 
-          likers: 32
         }
       ]
     };

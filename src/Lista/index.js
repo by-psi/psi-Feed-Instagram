@@ -118,7 +118,6 @@ const styles = StyleSheet.create({
     flex: 1,
     height: 400,
     alignItems: 'center',
-
   },
   profileArea:{
     flexDirection: 'row',
